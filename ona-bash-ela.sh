@@ -8,6 +8,7 @@
 # vachaela    -> banana leaf (more descriptive term)
 # ----------------
 # For tput color codes and detailed docs : https://linuxcommand.org/lc3_adv_tput.php
+echo -ne "\033]0;OnaBashEla.sh\007"
 
 HELP="$(tput bold)Ona-Bash-Ela (version 1.0.0)$(tput sgr0)
 A bash script to print some onam things (BTW: Onam is a festival of kerala, inase this script is being read by any non-keralite)
